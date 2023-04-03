@@ -1,0 +1,367 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    color: black;
+    /* box-shadow: 3px 3px 3px rgb(228, 207, 207); */
+
+}
+
+header>nav>ul {
+    float: center;
+    list-style: none;
+    margin-bottom: 0%;
+
+}
+
+header>nav>ul>li {
+    display: inline-block;
+    padding: 25px;
+
+}
+
+header>nav>ul>li>a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+
+}
+
+header>nav>ul>li:hover {
+    background-color: rgb(247, 243, 243);
+    border-radius: 12px;
+    color: rgb(24, 17, 17);
+    box-shadow: 3px 3px 3px rgb(226, 204, 204);
+
+}
+
+header>nav>ul>li:hover>a {
+    color: white;
+}
+
+header>nav>img {
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+}
+
+.carousel-inner>.carousel>img {
+    height: 500px;
+    width: 100%;
+}
+
+.btnonslider {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+
+}
+
+.textonslider {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+
+}
+
+.breadcrumb {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    padding: 10px;
+    background-image: linear-gradient(to right, red, pink, indigo, blue);
+    opacity: 0.8;
+    border-radius: 7px;
+
+}
+
+
+.aboutclinic>div {
+ 
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+
+
+}
+
+.aboutInfo {
+    margin-top: 30px;
+}
+
+.aboutclinic>div>div>p {
+    text-indent: 50px;
+    text-align: justify;
+
+}
+
+.sideimage>img {
+    margin-left: 200px;
+    margin-top: 36px;
+    height: 200x;
+    width: 200px;
+
+
+}
+
+.team>h1 {
+    margin-top: 20px;
+    color: rgb(231, 241, 241);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px rgb(218, 198, 198);
+    font-size: 50px;
+}
+
+
+
+.box {
+    background-color: #f9f9f9;
+    color: black;
+    font-weight: bolder;
+    height: 500px;
+    width: 300px;
+    padding: 20px;
+    /* border-radius: 20px; */
+    border: 2px solid rgb(135, 134, 133);
+    margin: 6px;
+    box-shadow: 5px solid rgb(190, 187, 187);
+}
+
+.box:hover {
+  
+}
+
+.box:hover>.treatmentHead:hover {
+    color: #0B0B45;
+    text-shadow: 3px 3px 3px grey;
+}
+
+.minibox {
+    background-color: #efeff0;
+    color: rgb(235, 75, 75);
+    font-weight: bold;
+    font-size: 10px;
+    height: 150px;
+    width: 150px;
+    /* padding:20px; */
+    border-radius: 10px;
+    border: 2px solid rgb(10, 10, 9);
+    /* box-shadow: 3px 3px 3px grey; */
+    margin: 6px;
+}
+
+.icons {
+    background-color: #fff;
+    height: 70px;
+    width: 70px;
+    /* margin-left: px; */
+    /* border-radius: 10px; */
+    box-shadow: 3px 3px 3px grey;
+}
+
+.treatmentHead {
+    coloR: rgb(7, 7, 7);
+    text-shadow: 3px 3px 3px grey;
+}
+
+.youtubevideo{
+    height:610px ;
+    width: 610px;
+    opacity: 0.7
+}
+
+.testimonalimages{
+    height:500px;width:200%;border-radius:20px;opacity:0.8;
+}
+
+
+div.images {
+    padding: 10px;
+}
+
+.images>img {
+    height: 100%;
+    max-height: 300px;
+    width: 100%;
+    box-shadow: 5px 5px 5px rgb(238, 229, 229);
+    background-color: #fff;
+}
+
+footer {
+
+    background: #fafafe;
+    ;
+    padding: 30px;
+    text-align: center;
+    color: rgb(3, 3, 3);
+    min-height: 400px;
+    width: 100%;
+    font-weight: bolder;
+
+}
+
+.footer>p {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+/*
+.leftfoot{
+    padding-left:40px;
+    float: left;
+}
+.rightfoot{
+    padding-right:0px;
+    float: right;
+ 
+}*/
+.fa-youtube-square,
+.fa-instagram-square,
+.fa-whatsapp-square,
+.fa-twitter-square,
+.fa-facebook-square,
+.fa-snapchat-square {
+    transition: 1s;
+    margin: 10px;
+}
+
+.fa-youtube-square:hover,
+.fa-instagram-square:hover,
+.fa-whatsapp-square:hover,
+.fa-twitter-square:hover,
+.fa-facebook-square:hover,
+.fa-snapchat-square:hover {
+    transform: scale(2.2);
+
+}
+
+.map {
+    max-height: 340px;
+    width: 100%;
+}
+
+.logosize {
+    height: 100px;
+    width: 100px;
+}
+
+.bookbtn {
+    background-color: rgb(249, 248, 243);
+    color: rgb(99, 87, 87);
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 20px;
+
+}
+#overlay{
+    display: none;
+    position: absolute;
+    top:800%;
+    bottom:0px;
+    left:500px;
+    right:500px;
+    z-index: 1;
+    background-color:gold;
+    color: black;
+    text-shadow: 2px solid rgb(185, 176, 176);
+    max-width:600px;
+    height: 300px;
+    border-radius: 20px;
+
+box-shadow: 5px solid lightgrey;
+}
+
+#modal{
+    max-width:600px;
+    height: 300px;
+    margin:auto;
+    /* background-color: rgb(59, 164, 164); */
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+
+    right:0;
+}
+.website-content{
+    /* height: 1000vh; */
+
+}
+
+.checkpastBtn {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 30px
+}
+
+.bookbtnblog {
+    background-color: red;
+    color: rgb(246, 243, 243);
+    font-weight: bolder;
+    font-size: 15px;
+    opacity: 0.6;
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+#gallerybtnflex {
+
+    font-weight: bold;
+    font-size: 30px;
+    height: 150px;
+    width: 300px;
+
+
+}
+
+.gallerybtnitem {
+    justify-content: center;
+    background-color: #0B0B45;
+    color: rgb(247, 243, 243);
+    padding: 10px;
+    border: 3px solid gold;
+}
+
+.gallerygrid {
+    display: flex;
+}
+
+.galleryitem {
+    justify-content: center;
+    gap: 0px;
+}
+
+.testimonal {
+    background-image: url("../images/slide3.jpeg");
+
+}
+
+.testreview{
+    position: relative;
+    bottom:50%;
+    left: 45%;
+    font-size:25px;
+    color: white;
+    font-weight: bolder;
+
+}      
